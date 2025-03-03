@@ -58,7 +58,7 @@ CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 
 2. Выполняю команду для запуска контейнера:
 
-`docker run --name containers02 containers02`
+`docker run --name conteiners03 conteiners03`
 
 *Что было выведено в консоли?*
 
@@ -69,8 +69,8 @@ CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 3. Удаляю контейнер и запускаю снова, выполнив команды:
 
 ```
-docker rm containers02
-docker run -ti --name containers02 containers02 bash
+docker rm conteiners03
+docker run -ti --name conteiners03 conteiners03 bash
 ```
 
 4. В открывшемся окне выполняю команды:
